@@ -1,30 +1,42 @@
-name: null
-favicon: null
-layout_spectrum: 0.61404
-typography_spectrum: 0.87719
-cta:
-  domain: null
-  bucket: null
-  version: null
 analytics:
+  twitter: null
   google: null
   facebook: null
-  twitter: null
 opengraph:
   image: null
   type: null
   appId: null
-color:
-  brandColors:
-    - '#663333'
-    - '#cccc66'
-    - '#666666'
-    - '#808066'
-    - '#b3b366'
-  brandStrength: 0
-  lightness: 0.5
-  saturation: 0.5
+collections:
+  - index:
+      path: /
+      number: 15
+      paginate: true
+      navigable: true
+    permalink:
+      path: '/:title/'
+    feed:
+      path: /rss.xml
+      format: rss
+      number: 10
 purpose:
   - name: follow
-    item: 84b2365f-6119-44ec-83f6-6c2c25a1622f
     url: people
+    item: 84b2365f-6119-44ec-83f6-6c2c25a1622f
+color:
+  saturation: 0
+  brandStrength: 0.7885305
+  lightness: 1
+  brandColors:
+    - '#D6D7D0'
+    - '#A3A5A2'
+    - '#304154'
+    - '#A2655B'
+  rhythmicContrast: 1
+typography_spectrum: 0.3082437
+cta:
+  bucket: null
+  version: null
+  domain: null
+layout_spectrum: 0.61404
+favicon: null
+name: Cinaut Studios
